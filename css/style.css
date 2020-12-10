@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 5px 20px;
+	border:transparent;
+
+}
+ul li a:hover{
+	background-color: yellow;
+	color: black;
+}
+ul li.constant a{
+	background-color: yellow;
+	color: black;
+}
+.title{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: yellow;
+	font-size: 100px;
+
+}
+.title h2{
+	color: yellow;
+	font-size: 40px;
+}.title h2 span{
+	color: white;
+}
